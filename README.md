@@ -3,10 +3,12 @@
 ## Jupyter
 
 ```sh
-jupyter notebook
+uvx jupyter lab
 ```
 
-## Activation of environment**
+Add 8888 
+
+## Activation of environment
 
 ```sh
 source .venv/bin/activate
