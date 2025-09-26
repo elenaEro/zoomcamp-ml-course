@@ -13,3 +13,10 @@ Add 8888
 ```sh
 source .venv/bin/activate
 ```
+
+## Assign env from uv to notebook
+
+```sh
+uv add pandas jupyter ipykernel
+uv run python -m ipykernel install --user --name=zoomcamp --display-name "Python (zoomcamp)"
+```
